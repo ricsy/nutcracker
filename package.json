@@ -1,0 +1,29 @@
+{
+  "name": "nutcracker",
+  "version": "1.0.0",
+  "description": "Scripts repository for common utilities",
+  "author": "ricsy",
+  "license": "MIT",
+  "keywords": [
+    "scripts",
+    "utilities",
+    "shell",
+    "developer-tools",
+    "automation",
+    "cli"
+  ],
+  "scripts": {
+    "prepare": "pip install pre-commit && pre-commit install",
+    "lint": "bun eslint --fix"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@antfu/eslint-config": "^8.2.0",
+    "@types/bun": "^1.3.13",
+    "@types/node": "^25.6.0",
+    "eslint": "^10.2.1"
+  }
+}
