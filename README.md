@@ -10,7 +10,8 @@
 
 ```bash
 # 本地使用
-npx github:ricsy/nutcracker/scripts/release.js <version>
+alias nutcracker='curl -sL https://raw.githubusercontent.com/ricsy/nutcracker/master/scripts/release.js | node -'
+nutcracker
 ```
 
 **功能特性：**
